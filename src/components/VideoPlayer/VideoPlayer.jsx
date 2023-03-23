@@ -1,7 +1,7 @@
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import "./VideoPlayer.css";
 
-export default function VideoPlayer() {
+export default function Video() {
   const [playing, setPlaying] = useState(false);
   const [muted, setMuted] = useState(false);
 
