@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import "./styles.css";
+import "./VideoPlayer.css";
 
 export default function VideoPlayer() {
   const [playing, setPlaying] = useState(false);
